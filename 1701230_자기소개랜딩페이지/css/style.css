@@ -1,0 +1,274 @@
+@font-face { font-family: 'MapoDPPA'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoDPPA.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'MapoGoldenPier'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoGoldenPierA.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg-orange {
+    background: linear-gradient(90deg, #05c4d6, 50%, #0481d6);
+}
+.align-center {
+    display: block;
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+body {
+    font-size: 14px;
+}
+
+h1 {
+    font-family: 'MapoDPPA',sans-serif;
+
+    color: white;
+    padding: 10px;
+    position: relative;
+}
+
+li {
+    text-decoration: none;
+}
+
+#sns-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 12.5px;
+}
+
+#sns-nav li {
+    display: inline-block;
+}
+
+#sns-nav li a {
+    display: inline-block;
+    text-indent: -9999999px;
+    width: 31px;
+    height: 31px;
+}
+#sns-nav li a#link-facebook {
+    background-image: url(../images/facebook.png); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 15px;
+}
+#sns-nav li a#link-instagram {
+    background-image: url(../images/instagram.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 15px;
+}
+section {
+    padding: 20px;
+    position: relative;
+}
+section header {
+    font-family: 'MapoDPPA',sans-serif;
+    padding-bottom: 20px;
+}
+section header span.strong {
+    font-size: 36px;
+}
+#section-1 {
+    background: linear-gradient(90deg, #05c4d6, 50%, #0481d6);
+    color: #fff;
+/*
+    background-image: url(../images/pic.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+*/
+}
+#section-1 header {
+    padding: 130px 0 0 130px;
+}
+#section-1 article {
+    padding-top: 30px;
+}
+#section-1 article div#my-pic {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+}
+#section-1 article div#my-pic img {
+    border-radius: 50%;
+}
+#section-1 article ul li {
+    padding-top: 5px;
+    list-style: none;
+    font-size: 21px;
+    font-family: 'MapoDPPA';
+}
+
+#section-2 header {
+    padding: 60px 0 0 0;
+    text-align: center;
+    color: #9f9f9f;
+}
+
+#section-2 article {
+    padding-top: 140px;
+    padding-bottom: 30px;
+    font-size: 26px;
+    font-family: 'MapoDPPA';
+    position: relative;
+    margin-left: 40px;
+}
+#section-3 article {
+    padding-top: 140px;
+    padding-bottom: 30px;
+    font-size: 26px;
+    font-family: 'MapoDPPA';
+    position: relative;
+    background: linear-gradient(90deg, #05c4d6, 50%, #0481d6);
+}
+#section-4 article {
+    padding-top: 140px;
+    padding-bottom: 30px;
+    font-size: 26px;
+    font-family: 'MapoDPPA';
+    position: relative;
+}
+
+#section2title {
+    width: 0px;
+    height: 0px;
+    border-top:80px solid #05a4d6;
+    border-bottom:80px solid none;
+    border-right: 80px solid transparent;
+    border-left: 80px solid  transparent;
+    position: absolute;
+    z-index: 1;
+}
+
+#section3title {
+    width: 0px;
+    height: 0px;
+    border-top:80px solid white;
+    border-bottom:80px solid none;
+    border-right: 80px solid transparent;
+    border-left: 80px solid  transparent;
+    position: absolute;
+    z-index: 1;
+}
+
+#section4title {
+    width: 0px;
+    height: 0px;
+    border-top:80px solid #05a4d6;
+    border-bottom:80px solid none;
+    border-right: 80px solid transparent;
+    border-left: 80px solid  transparent;
+    position: absolute;
+    z-index: 1;
+}
+
+
+#personality {
+    position: absolute;
+    padding-left: 58px;
+    padding-top: 16px;
+    z-index: 2;
+    color: white;
+    font-family: 'MapoDPPA';
+    font-size: 24px;
+}
+#information {
+    position: absolute;
+    padding-left: 36px;
+    padding-top: 16px;
+    z-index: 2;
+    color: #05a4d6;
+    font-family: 'MapoDPPA';
+    font-size: 24px;
+}
+#useable {
+    position: absolute;
+    padding-left: 36px;
+    padding-top: 16px;
+    z-index: 2;
+    color: white;
+    font-family: 'MapoDPPA';
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+}
+
+}
+#section-3 {
+    padding: 60px 0 0 0;
+    text-align: center;
+    background-color: black;
+    position: relative;
+
+}
+#section-4 {
+    padding-bottom: 30px;
+    margin-left: 60px;
+    position: relative;
+}
+#footer {
+    padding: 40px 20px 40px;
+    background-color: #cecece;
+    text-align: center;
+    font-size: 14px;
+}
+#footer div {
+    padding: 10px;
+}
+#homeimg {
+    height: 140px;
+    width: 140px;
+    background-image: url(../images/home.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#familyimg {
+    height: 140px;
+    width: 140px;
+    background-image: url(../images/family.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#section-2 article ul li {
+    padding-top: 20px;
+}
+#section-3 article ul li {
+    padding-top: 40px;
+}
+#section-4 article ul li {
+    padding-top: 30px;
+}
+
+#family {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+#familymember {
+    font-size: 42px;
+    color: gray;
+    padding-top: 50px;
+}
+
+#address {
+    font-size: 42px;
+    color: gray;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#live {
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+#place {
+    font-size: 21px;
+    margin-left: 30px;
+}
